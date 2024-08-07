@@ -1,0 +1,65 @@
+.order-table {
+  width: 100%;
+  color: #ffffff;
+  background-color: #2a2d36;
+  padding: 15px;
+  border-radius: 10px;
+  margin-top: 5px;
+}
+
+.order-table h2 {
+  margin-bottom: 5px;
+}
+
+.order-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.order-table th,
+.order-table td {
+  padding: 5px;
+  text-align: left;
+}
+
+.order-table th {
+  border-bottom: 1px solid #3e3e50;
+}
+
+.order-table td {
+  border-bottom: 1px solid #3e3e50;
+}
+
+.order-table tr:last-child td {
+  border-bottom: none;
+}
+
+.customer-image {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.order-table .status {
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+}
+
+.status.delivered {
+  color: #fff;
+  background-color: #4caf50;
+}
+
+.status.pending {
+  color: #fff;
+  background-color: #ff9800;
+}
+
+.status.cancelled {
+  color: #fff;
+  background-color: #f44336;
+}

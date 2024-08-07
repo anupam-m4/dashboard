@@ -1,0 +1,47 @@
+.card {
+  background-color: #2a2d36;
+  color: #ffffff;
+  padding: 7px;
+  border-radius: 12px;
+  width: 230px;
+  /* text-align: left; */
+}
+
+.card-header {
+  display: flex;
+  flex-direction: column;
+
+  margin-bottom: 5px;
+}
+
+.card-icon {
+  font-size: 18px;
+  margin-bottom: 5px;
+
+  color: rgb(109, 109, 253);
+}
+
+.card-title {
+  font-size: 15px;
+  /* font-weight: 600; */
+  color: white;
+}
+
+.card-value {
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.card-change {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.card-change.positive {
+  color: #4caf50;
+}
+
+.card-change.negative {
+  color: #f44336;
+}

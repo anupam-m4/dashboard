@@ -1,0 +1,41 @@
+.goal-container {
+  height: 200px;
+  /* width: auto; */
+
+  background-color: #2a2d36;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-around;
+}
+
+.goal-container .goal,
+.goal1,
+.goal2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.goal-container .goal .icon {
+  color: rgb(216, 112, 74);
+  font-size: 28px;
+}
+
+.goal-container .goal1 .icon {
+  color: rgb(58, 99, 182);
+  font-size: 28px;
+}
+
+.goal-container .goal2 .icon {
+  color: rgb(23, 94, 73);
+  font-size: 28px;
+}
+
+.goal-container .goal,
+.goal1,
+.goal2 p,
+span {
+  color: rgba(255, 255, 255, 0.668);
+}

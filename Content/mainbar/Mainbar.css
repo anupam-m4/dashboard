@@ -1,0 +1,12 @@
+.container {
+  width: calc(100% - 100px);
+  flex: 1;
+  padding: 20px;
+  padding-top: 30px;
+}
+
+@media screen and(max-width:525px) {
+  .container {
+    width: calc(100% - 60px);
+  }
+}
